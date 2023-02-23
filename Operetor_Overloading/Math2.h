@@ -17,8 +17,8 @@ int operator+(Math m1){
     int sum = count + m1.getCount();
     return sum;
 }
-int operator++(){
-    ++count;
+int operator++(int){
+    count++;
     return count;
 }
 private:

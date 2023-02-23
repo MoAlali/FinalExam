@@ -16,7 +16,7 @@ using namespace std;
    m1.setCount(20);
    m2.setCount(20);
    cout << m2+m1 << endl;
-   cout << ++m2 <<endl;
+   cout << m2++ <<endl;
 
 
  }
