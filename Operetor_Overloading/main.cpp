@@ -11,12 +11,11 @@ using namespace std;
    string a = "Hello" , b = "World";
    cout << a + " "  + b << endl;
 
-   Math m1;
-   Math2 m2;
+   Math m1 , m2;
    m1.setCount(20);
-   m2.setCount(20);
-   cout << m2+m1 << endl;
-   cout << m2++ <<endl;
+   m2.setCount(10);
+  
+   cout << m2++ << endl;
 
 
  }

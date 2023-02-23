@@ -12,6 +12,11 @@ int getCount() {
 void setCount(int x){
     count = x;
 }
+int operator++(int){
+    count++;
+    return count;
+}
+
 private:
 int count;
 };
