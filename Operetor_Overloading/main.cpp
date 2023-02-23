@@ -10,11 +10,10 @@ using namespace std;
    string a = "Hello" , b = "World";
    cout << a + " "  + b << endl;
 
-   Math m1 , m2;
-   m1.setCount(20);
-   m2.setCount(10);
-  
-   //cout << m2++ << endl;
-   cout << m2 + m1 << endl;
-
- }
+    Math m1 , m2;
+    em e1;
+    m1.setCount(20);
+    m2.setCount(10);
+    cout << m1 + e1 << endl;
+    cout <<  m1+m2 << endl;
+}

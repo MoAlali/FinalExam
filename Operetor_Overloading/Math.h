@@ -1,4 +1,5 @@
 #include <iostream>
+#include "em.h"
 using namespace std;
 class Math{
 
@@ -12,17 +13,19 @@ int getCount() {
 void setCount(int x){
     count = x;
 }
-int operator++(int){
-    count++;
-    return count;
+int operator+ (Math m1){
+    return count + m1.count;
 }
-int operator++(){
-    ++count;
-    return count;
+int operator+ (em e1){
+    return count + e1.getratb();
 }
-int operator + (Math m2){
-   return count + m2.getCount();
+int operator++ (int){
+    return count++;
 }
+int operator++ (){
+    return ++count;
+}
+
 private:
 int count;
 };
