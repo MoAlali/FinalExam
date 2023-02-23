@@ -1,5 +1,4 @@
-
-#include "Math2.h"
+#include "math.h"
 #include <iostream>
 using namespace std;
  int main(){
@@ -15,7 +14,7 @@ using namespace std;
    m1.setCount(20);
    m2.setCount(10);
   
-   cout << m2++ << endl;
-
+   //cout << m2++ << endl;
+   cout << m2 + m1 << endl;
 
  }

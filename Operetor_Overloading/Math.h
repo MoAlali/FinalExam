@@ -16,7 +16,13 @@ int operator++(int){
     count++;
     return count;
 }
-
+int operator++(){
+    ++count;
+    return count;
+}
+int operator + (Math m2){
+   return count + m2.getCount();
+}
 private:
 int count;
 };
