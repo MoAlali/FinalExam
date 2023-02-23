@@ -1,12 +1,17 @@
+#include <iostream>
 class Math{
-private:
-int count;
+
 public:
 Math(){
     count = 5;
 }
-Math(int x){
-count = x;
+int getCount() const{
+    return count;
 }
+void setCount(int x){
+    count = x;
+}
+private:
+int count;
 };
 

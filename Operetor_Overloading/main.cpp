@@ -11,8 +11,8 @@ using namespace std;
    cout << a + " "  + b << endl;
 
    Math m1 , m2;
-   m1(2);
-   m2(20);
-  // m1 + m2;
+   m1.setCount(10);
+   m2.setCount(20);
+   cout << m1 + m2 << endl;
 
  }
