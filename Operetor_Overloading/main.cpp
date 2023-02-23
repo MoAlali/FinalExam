@@ -11,6 +11,8 @@ using namespace std;
    cout << a + " "  + b << endl;
 
    Math m1 , m2;
-   m1 + m2;
+   m1(2);
+   m2(20);
+  // m1 + m2;
 
  }
