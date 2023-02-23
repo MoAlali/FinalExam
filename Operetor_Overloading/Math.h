@@ -1,11 +1,12 @@
 #include <iostream>
+using namespace std;
 class Math{
 
 public:
 Math(){
     count = 5;
 }
-int getCount() const{
+int getCount() {
     return count;
 }
 void setCount(int x){
