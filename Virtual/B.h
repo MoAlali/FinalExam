@@ -1,0 +1,6 @@
+class B{
+private:
+
+public:
+
+};
