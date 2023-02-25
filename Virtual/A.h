@@ -5,8 +5,11 @@ private:
 string name;
 int age;
 public:
-string setName(string n){
+void setName(string n){
     name = n;
+}
+string getName() {
+    return name;
 }
 
 };

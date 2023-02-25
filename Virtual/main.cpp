@@ -1,22 +1,11 @@
+#include "B.h"
 #include <iostream>
 using namespace std;
 
 int main() {
-    // print 10 rows of decreasing asterisks
-    for (int i = 1; i <= 10; i++) {
-        for (int j = 10; j >= i; j--) {
-            cout << "*";
-        }
-        cout << endl;
-    }
-
-    // print 10 rows of increasing asterisks
-    for (int i = 1; i <= 10; i++) {
-        for (int j = 1; j <= i; j++) {
-            cout << "*";
-        }
-        cout << endl;
-    }
-
+    B b1;
+    b1.setName("mohammed");
+    cout << b1.getName() << endl;
+    cout << b1.getBouns() << endl;
     return 0;
 }
