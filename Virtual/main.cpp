@@ -1,11 +1,25 @@
-#include "B.h"
 #include <iostream>
+#include <string>
 using namespace std;
-
+class stu {
+    int ID;
+    string name;
+public:
+    stu() {
+        ID = 000;
+        name = "unknown";
+        cout << "stu constructor" << endl;
+    }
+    void print() {
+        cout << "name " << name << endl;
+        cout << "id " << ID << endl;
+    }
+    ~stu() {
+        cout << "destruct" << endl;
+    }
+};
 int main() {
-    B b1;
-    b1.setName("mohammed");
-    cout << b1.getName() << endl;
-    cout << b1.getBouns() << endl;
-    return 0;
+    stu x;
+    x.print();
+    system("pause");
 }

@@ -13,19 +13,37 @@ int getCount() {
 void setCount(int x){
     count = x;
 }
-int operator+ (Math m2){
-    return count + m2.getCount();
+string getid() {
+    return id;
 }
-int operator++ (int){
-    return count++;
+void setid(string x){
+    id = x;
 }
-int operator++ (){
-    return ++count;
+string operator==(Math e2){
+    
+    if(e2.id == id){
+        bool S1 = true;
+        cout << S1;
+    }
+    else{
+        bool S1 = false;
+        cout << S1;
+    }
+
 }
-int operator+ (em e1){
-    return count + e1.getratb();
-}
+// int operator+ (Math m2){
+//     return count + m2.getCount();
+// }
+// int operator++ (int){
+//     return count++;
+// }
+// int operator++ (){
+//     return ++count;
+// }
+// int operator+ (em e1){
+//     return count + e1.getratb();
+// }
 private:
 int count;
+string id;
 };
-
