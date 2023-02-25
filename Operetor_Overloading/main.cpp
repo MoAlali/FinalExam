@@ -15,9 +15,10 @@ using namespace std;
      em e1;
      m1.setCount(20);
      m2.setCount(10);
-   cout << m1 + e1 << endl;
-   cout <<  m1 + m2 << endl;
+  
+  
    m1++;
-   ++m1;
+   cout << m1.getCount() << endl;
+   m1-=1;
    cout << m1.getCount() << endl;
  }
