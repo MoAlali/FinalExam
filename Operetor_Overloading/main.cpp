@@ -13,8 +13,12 @@ using namespace std;
 
     Math m1 , m2;
      em e1;
-     m1 == m2;
      m1.setCount(20);
      m2.setCount(10);
-    
+  
+  
+   m1++;
+   cout << m1.getCount() << endl;
+   m1-=1;
+   cout << m1.getCount() << endl;
  }
